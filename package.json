@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.34.0",
+    "@nuxt/kit": "npm:@nuxt/kit-edge@latest",
+    "eslint": "^8.29.0",
+    "nuxt": "3.0.0",
+    "vite-plugin-vuetify": "^1.0.1"
+  },
+  "dependencies": {
+    "@emotion/css": "^11.10.5",
+    "@mdi/font": "^7.1.96",
+    "@pinia/nuxt": "^0.4.6",
+    "@types/leaflet": "^1.9.0",
+    "@vueuse/core": "^9.7.0",
+    "@vueuse/nuxt": "^9.7.0",
+    "leaflet": "^1.9.3",
+    "leaflet-markers-canvas": "^0.2.2",
+    "nuxt-lodash": "^2.4.1",
+    "pinia": "^2.0.28",
+    "vue": "^3.2.45",
+    "vuetify": "^3.0.5"
+  }
+}
